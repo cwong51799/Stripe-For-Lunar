@@ -1,0 +1,9 @@
+{
+  "title": "Lunar Trading LLC Membership Subscription",
+  "headline": "Lunar Trading LLC Membership",
+  "subline": "One month membership",
+  "sr-legal-text": "",
+  "button": {
+    "submit": "Subscribe for {{total}} a month"
+  }
+}
