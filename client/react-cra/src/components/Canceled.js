@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Stripe Checkout Sample</title>
-    <meta name="description" content="A demo of Stripe Payment Intents" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-    <link rel="icon" href="stonks.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/global.css" />
-  </head>
-
-  <body>
+const Canceled = () => {
+  return (
     <div class="sr-root">
       <div class="sr-main">
         <div class="sr-payment-summary completed-view">
@@ -44,5 +35,7 @@
         </div>
       </div>
     </div>
-  </body>
-</html>
+  );
+};
+
+export default Canceled;
